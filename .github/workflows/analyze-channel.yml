@@ -1,0 +1,94 @@
+name: Analisar canal sem API
+
+on:
+  workflow_dispatch:
+    inputs:
+      channel_url:
+        description: URL ou @handle do canal
+        required: true
+        type: string
+
+      max_videos:
+        description: Quantidade máxima de vídeos
+        required: true
+        default: "200"
+        type: choice
+        options: ["50", "100", "200", "300", "500"]
+
+      max_competitors:
+        description: Referências em inglês
+        required: true
+        default: "3"
+        type: choice
+        options: ["0", "1", "2", "3", "4"]
+
+      deep_all:
+        description: Buscar metadados completos de cada vídeo
+        required: true
+        default: false
+        type: boolean
+
+      skip_thumbnails:
+        description: Pular análise visual das thumbnails
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    env:
+      CHANNEL_URL: ${{ inputs.channel_url }}
+      MAX_VIDEOS: ${{ inputs.max_videos }}
+      MAX_COMPETITORS: ${{ inputs.max_competitors }}
+      DEEP_ALL: ${{ inputs.deep_all }}
+      SKIP_THUMBNAILS: ${{ inputs.skip_thumbnails }}
+
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar coletor
+        run: pip install -r requirements.txt
+
+      - name: Executar testes
+        run: python -m unittest discover -s tests -v
+
+      - name: Coletar e analisar
+        shell: bash
+        run: |
+          args=(
+            "$CHANNEL_URL"
+            --max-videos "$MAX_VIDEOS"
+            --max-competitors "$MAX_COMPETITORS"
+            --output reports/latest.json
+          )
+
+          if [[ "$DEEP_ALL" == "true" ]]; then
+            args+=(--deep-all)
+          fi
+
+          if [[ "$SKIP_THUMBNAILS" == "true" ]]; then
+            args+=(--skip-thumbnails)
+          fi
+
+          python -m collector.collect "${args[@]}"
+
+      - name: Salvar relatório no repositório
+        run: |
+          git config user.name "youtube-strategy-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/latest.json
+          git commit -m "Atualiza análise do canal" || exit 0
+          git push

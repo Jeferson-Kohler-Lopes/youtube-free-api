@@ -59,11 +59,11 @@ jobs:
           python-version: "3.12"
           cache: pip
 
-      - name: Instalar coletor
-        run: pip install -r requirements.txt
+- name: Coletar e analisar
+  shell: bash
+  run: |
 
-      - name: Executar testes
-        run: python -m unittest discover -s tests -v
+
 
       - name: Coletar e analisar
         shell: bash

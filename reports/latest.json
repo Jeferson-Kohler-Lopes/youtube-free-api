@@ -1,0 +1,1231 @@
+{
+  "version": "2.0-no-api",
+  "generatedAt": "2026-07-15T22:56:03.964883+00:00",
+  "collectionMethod": "yt-dlp + análise local; nenhuma YouTube Data API utilizada",
+  "channel": {
+    "id": "UC9DJNyoRP-QYIOBO6H1riyQ",
+    "title": "Cartas do Mundo",
+    "description": "",
+    "customUrl": "",
+    "country": null,
+    "publishedAt": "",
+    "thumbnail": "https://yt3.googleusercontent.com/s_GpF6cuB6RLc0_bmwyfDUxYJnsfzzpNR43Y85bWjMBXzZDiEK4UACftrx-QxFSn9qgBD696RVY=s900-c-k-c0x00ffffff-no-rj",
+    "subscriberCount": 131,
+    "viewCount": 26858,
+    "videoCount": 4,
+    "uploadsPlaylistId": "",
+    "url": "https://www.youtube.com/channel/UC9DJNyoRP-QYIOBO6H1riyQ"
+  },
+  "niche": {
+    "id": "general",
+    "label": "Conteúdo especializado / nicho geral",
+    "confidence": 0.35,
+    "matchedTerms": [
+      "cartas",
+      "mundo",
+      "angeles",
+      "conta",
+      "los"
+    ],
+    "englishSearchTerms": [
+      "cartas expert channel",
+      "mundo expert channel",
+      "angeles expert channel"
+    ]
+  },
+  "videosAnalyzed": 4,
+  "totalPublicVideosReported": 4,
+  "truncated": false,
+  "medianViews": 3900.0,
+  "averageViews": 6714.5,
+  "averageViewsPerDay": 6714.5,
+  "postingFrequencyDays": null,
+  "keywords": [
+    {
+      "term": "cartas",
+      "count": 2,
+      "weightedScore": 2.227
+    },
+    {
+      "term": "mundo",
+      "count": 2,
+      "weightedScore": 2.227
+    },
+    {
+      "term": "angeles",
+      "count": 1,
+      "weightedScore": 1.976
+    },
+    {
+      "term": "conta",
+      "count": 1,
+      "weightedScore": 1.976
+    },
+    {
+      "term": "los",
+      "count": 1,
+      "weightedScore": 1.976
+    },
+    {
+      "term": "ninguem",
+      "count": 1,
+      "weightedScore": 1.976
+    },
+    {
+      "term": "sobre",
+      "count": 1,
+      "weightedScore": 1.976
+    },
+    {
+      "term": "casa",
+      "count": 1,
+      "weightedScore": 1.727
+    },
+    {
+      "term": "sair",
+      "count": 1,
+      "weightedScore": 1.727
+    },
+    {
+      "term": "viaje",
+      "count": 1,
+      "weightedScore": 1.727
+    },
+    {
+      "term": "ano",
+      "count": 1,
+      "weightedScore": 0.5
+    },
+    {
+      "term": "aventuras",
+      "count": 1,
+      "weightedScore": 0.5
+    },
+    {
+      "term": "confira",
+      "count": 1,
+      "weightedScore": 0.5
+    },
+    {
+      "term": "laponia",
+      "count": 1,
+      "weightedScore": 0.5
+    },
+    {
+      "term": "rosa",
+      "count": 1,
+      "weightedScore": 0.5
+    },
+    {
+      "term": "viajante",
+      "count": 1,
+      "weightedScore": 0.5
+    }
+  ],
+  "topVideos": [
+    {
+      "id": "m6ptRO5mk9U",
+      "title": "O que ninguém te conta sobre Los Angeles",
+      "description": "",
+      "publishedAt": "",
+      "thumbnail": "https://i.ytimg.com/vi/m6ptRO5mk9U/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCoNW3rg2-x-nKoOfw9d0E0o9MHgQ",
+      "url": "https://www.youtube.com/watch?v=m6ptRO5mk9U",
+      "tags": [],
+      "durationSeconds": 321,
+      "durationLabel": "5:21",
+      "views": 4800,
+      "likes": 0,
+      "comments": 0,
+      "viewsPerDay": 4800.0,
+      "engagementRate": 0.0,
+      "outlierScore": 1.976,
+      "isShort": false,
+      "channel": "",
+      "channelId": "",
+      "channelUrl": ""
+    },
+    {
+      "id": "5SKrnSnumNk",
+      "title": "Cartas do Mundo: viaje sem sair de casa",
+      "description": "",
+      "publishedAt": "",
+      "thumbnail": "https://i.ytimg.com/vi/5SKrnSnumNk/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFkoOjAP&rs=AOn4CLCsWzYBEzFVNpL6BcZmQKdK7LnO-g",
+      "url": "https://www.youtube.com/watch?v=5SKrnSnumNk",
+      "tags": [],
+      "durationSeconds": 46,
+      "durationLabel": "0:46",
+      "views": 19000,
+      "likes": 0,
+      "comments": 0,
+      "viewsPerDay": 19000.0,
+      "engagementRate": 0.0,
+      "outlierScore": 1.727,
+      "isShort": true,
+      "channel": "",
+      "channelId": "",
+      "channelUrl": ""
+    },
+    {
+      "id": "NpSpxdWYg8Y",
+      "title": "Confira as aventuras do Viajante Rosa em Lapônia",
+      "description": "",
+      "publishedAt": "",
+      "thumbnail": "https://i.ytimg.com/vi/NpSpxdWYg8Y/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_g6AArgIigIMCAAQARhOIGUoZTAP&rs=AOn4CLA1Fq_xCD-80jpZOqvxbHEsHuvbTw",
+      "url": "https://www.youtube.com/watch?v=NpSpxdWYg8Y",
+      "tags": [],
+      "durationSeconds": 45,
+      "durationLabel": "0:45",
+      "views": 3000,
+      "likes": 0,
+      "comments": 0,
+      "viewsPerDay": 3000.0,
+      "engagementRate": 0.0,
+      "outlierScore": 0.273,
+      "isShort": true,
+      "channel": "",
+      "channelId": "",
+      "channelUrl": ""
+    },
+    {
+      "id": "KZK-4-gU-iY",
+      "title": "PODCAST - Um ano de Cartas do Mundo",
+      "description": "",
+      "publishedAt": "",
+      "thumbnail": "https://i.ytimg.com/vi/KZK-4-gU-iY/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IFYoKjAP&rs=AOn4CLAKdY5xZP-Rtxgfr55UTsbEigB1dg",
+      "url": "https://www.youtube.com/watch?v=KZK-4-gU-iY",
+      "tags": [],
+      "durationSeconds": 2238,
+      "durationLabel": "37:18",
+      "views": 58,
+      "likes": 0,
+      "comments": 0,
+      "viewsPerDay": 58.0,
+      "engagementRate": 0.0,
+      "outlierScore": 0.024,
+      "isShort": false,
+      "channel": "",
+      "channelId": "",
+      "channelUrl": ""
+    }
+  ],
+  "recentVideos": [
+    {
+      "id": "m6ptRO5mk9U",
+      "title": "O que ninguém te conta sobre Los Angeles",
+      "description": "",
+      "publishedAt": "",
+      "thumbnail": "https://i.ytimg.com/vi/m6ptRO5mk9U/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCoNW3rg2-x-nKoOfw9d0E0o9MHgQ",
+      "url": "https://www.youtube.com/watch?v=m6ptRO5mk9U",
+      "tags": [],
+      "durationSeconds": 321,
+      "durationLabel": "5:21",
+      "views": 4800,
+      "likes": 0,
+      "comments": 0,
+      "viewsPerDay": 4800.0,
+      "engagementRate": 0.0,
+      "outlierScore": 1.976,
+      "isShort": false,
+      "channel": "",
+      "channelId": "",
+      "channelUrl": ""
+    },
+    {
+      "id": "5SKrnSnumNk",
+      "title": "Cartas do Mundo: viaje sem sair de casa",
+      "description": "",
+      "publishedAt": "",
+      "thumbnail": "https://i.ytimg.com/vi/5SKrnSnumNk/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFkoOjAP&rs=AOn4CLCsWzYBEzFVNpL6BcZmQKdK7LnO-g",
+      "url": "https://www.youtube.com/watch?v=5SKrnSnumNk",
+      "tags": [],
+      "durationSeconds": 46,
+      "durationLabel": "0:46",
+      "views": 19000,
+      "likes": 0,
+      "comments": 0,
+      "viewsPerDay": 19000.0,
+      "engagementRate": 0.0,
+      "outlierScore": 1.727,
+      "isShort": true,
+      "channel": "",
+      "channelId": "",
+      "channelUrl": ""
+    },
+    {
+      "id": "KZK-4-gU-iY",
+      "title": "PODCAST - Um ano de Cartas do Mundo",
+      "description": "",
+      "publishedAt": "",
+      "thumbnail": "https://i.ytimg.com/vi/KZK-4-gU-iY/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IFYoKjAP&rs=AOn4CLAKdY5xZP-Rtxgfr55UTsbEigB1dg",
+      "url": "https://www.youtube.com/watch?v=KZK-4-gU-iY",
+      "tags": [],
+      "durationSeconds": 2238,
+      "durationLabel": "37:18",
+      "views": 58,
+      "likes": 0,
+      "comments": 0,
+      "viewsPerDay": 58.0,
+      "engagementRate": 0.0,
+      "outlierScore": 0.024,
+      "isShort": false,
+      "channel": "",
+      "channelId": "",
+      "channelUrl": ""
+    },
+    {
+      "id": "NpSpxdWYg8Y",
+      "title": "Confira as aventuras do Viajante Rosa em Lapônia",
+      "description": "",
+      "publishedAt": "",
+      "thumbnail": "https://i.ytimg.com/vi/NpSpxdWYg8Y/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_g6AArgIigIMCAAQARhOIGUoZTAP&rs=AOn4CLA1Fq_xCD-80jpZOqvxbHEsHuvbTw",
+      "url": "https://www.youtube.com/watch?v=NpSpxdWYg8Y",
+      "tags": [],
+      "durationSeconds": 45,
+      "durationLabel": "0:45",
+      "views": 3000,
+      "likes": 0,
+      "comments": 0,
+      "viewsPerDay": 3000.0,
+      "engagementRate": 0.0,
+      "outlierScore": 0.273,
+      "isShort": true,
+      "channel": "",
+      "channelId": "",
+      "channelUrl": ""
+    }
+  ],
+  "competitors": [
+    {
+      "channel": {
+        "id": "UC66p8V6PCpzJ2hE9tWNWrqA",
+        "title": "domisumReplay: Dr. Mundo",
+        "description": "High elo League of Legends replays for Dr. Mundo. Daily uploads.",
+        "customUrl": "",
+        "country": null,
+        "publishedAt": "",
+        "thumbnail": "https://yt3.googleusercontent.com/4fgD8fsQAgk1zsMXH69-2NK8XSHTj1XXi56hL5d7qfU7AoH7ojWD0575N9w_IQ4Z2pZtFrYKoOI=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+        "subscriberCount": 3170,
+        "viewCount": 1458,
+        "videoCount": 20,
+        "uploadsPlaylistId": "",
+        "url": "https://www.youtube.com/channel/UC66p8V6PCpzJ2hE9tWNWrqA"
+      },
+      "verifiedUnitedStates": false,
+      "countryStatus": "estimated_english",
+      "relevanceScore": 43,
+      "topVideos": [
+        {
+          "id": "rZsNLr2ygFY",
+          "title": "DR. MUNDO vs GAREN (TOP) | 84K damage | EUNE Master | 26.13",
+          "description": "",
+          "publishedAt": "",
+          "thumbnail": "https://i.ytimg.com/vi/rZsNLr2ygFY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB6GLzq6ItiTiBlq6ZjoX9uDyIoMA",
+          "url": "https://www.youtube.com/watch?v=rZsNLr2ygFY",
+          "tags": [],
+          "durationSeconds": 2756,
+          "durationLabel": "45:56",
+          "views": 145,
+          "likes": 0,
+          "comments": 0,
+          "viewsPerDay": 145.0,
+          "engagementRate": 0.0,
+          "outlierScore": 2.522,
+          "isShort": false,
+          "channel": "",
+          "channelId": "",
+          "channelUrl": ""
+        },
+        {
+          "id": "H3hGzSRN3_c",
+          "title": "DR. MUNDO vs MORDEKAISER (TOP) | KR Master | 26.13",
+          "description": "",
+          "publishedAt": "",
+          "thumbnail": "https://i.ytimg.com/vi/H3hGzSRN3_c/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCM1JHDMBczEOBscBlkrpnS06VQ8w",
+          "url": "https://www.youtube.com/watch?v=H3hGzSRN3_c",
+          "tags": [],
+          "durationSeconds": 1955,
+          "durationLabel": "32:35",
+          "views": 106,
+          "likes": 0,
+          "comments": 0,
+          "viewsPerDay": 106.0,
+          "engagementRate": 0.0,
+          "outlierScore": 1.843,
+          "isShort": false,
+          "channel": "",
+          "channelId": "",
+          "channelUrl": ""
+        },
+        {
+          "id": "sErpYrdXeIg",
+          "title": "DR. MUNDO vs TEEMO (TOP) | KR Master | 26.12",
+          "description": "",
+          "publishedAt": "",
+          "thumbnail": "https://i.ytimg.com/vi/sErpYrdXeIg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCP-v3L97YldU9VT2-OIaFvaATGGA",
+          "url": "https://www.youtube.com/watch?v=sErpYrdXeIg",
+          "tags": [],
+          "durationSeconds": 1965,
+          "durationLabel": "32:45",
+          "views": 105,
+          "likes": 0,
+          "comments": 0,
+          "viewsPerDay": 105.0,
+          "engagementRate": 0.0,
+          "outlierScore": 1.826,
+          "isShort": false,
+          "channel": "",
+          "channelId": "",
+          "channelUrl": ""
+        },
+        {
+          "id": "wnSfk6IAFd4",
+          "title": "DR. MUNDO vs YONE (TOP) | Perfect KDA: 16/0/4 | KR Master | 26.12",
+          "description": "",
+          "publishedAt": "",
+          "thumbnail": "https://i.ytimg.com/vi/wnSfk6IAFd4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDpz37hRUqLDk3KXFoFZfrDBnSShg",
+          "url": "https://www.youtube.com/watch?v=wnSfk6IAFd4",
+          "tags": [],
+          "durationSeconds": 1395,
+          "durationLabel": "23:15",
+          "views": 100,
+          "likes": 0,
+          "comments": 0,
+          "viewsPerDay": 100.0,
+          "engagementRate": 0.0,
+          "outlierScore": 1.739,
+          "isShort": false,
+          "channel": "",
+          "channelId": "",
+          "channelUrl": ""
+        },
+        {
+          "id": "P25DdBJKevg",
+          "title": "DR. MUNDO vs SETT (TOP) | Perfect KDA: 12/0/4 | KR Diamond | 26.13",
+          "description": "",
+          "publishedAt": "",
+          "thumbnail": "https://i.ytimg.com/vi/P25DdBJKevg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBkPAOPzx5AreDXxySlet4uUE6ugg",
+          "url": "https://www.youtube.com/watch?v=P25DdBJKevg",
+          "tags": [],
+          "durationSeconds": 2094,
+          "durationLabel": "34:54",
+          "views": 99,
+          "likes": 0,
+          "comments": 0,
+          "viewsPerDay": 99.0,
+          "engagementRate": 0.0,
+          "outlierScore": 1.722,
+          "isShort": false,
+          "channel": "",
+          "channelId": "",
+          "channelUrl": ""
+        },
+        {
+          "id": "STjhEiH0N_8",
+          "title": "DR. MUNDO vs DARIUS (TOP) | NA Master | 26.13",
+          "description": "",
+          "publishedAt": "",
+          "thumbnail": "https://i.ytimg.com/vi/STjhEiH0N_8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA8_jDZURex-1N8BAm68Wsj8_E3JQ",
+          "url": "https://www.youtube.com/watch?v=STjhEiH0N_8",
+          "tags": [],
+          "durationSeconds": 2258,
+          "durationLabel": "37:38",
+          "views": 93,
+          "likes": 0,
+          "comments": 0,
+          "viewsPerDay": 93.0,
+          "engagementRate": 0.0,
+          "outlierScore": 1.617,
+          "isShort": false,
+          "channel": "",
+          "channelId": "",
+          "channelUrl": ""
+        }
+      ],
+      "keywords": [
+        {
+          "term": "mundo",
+          "count": 20,
+          "weightedScore": 25.355
+        },
+        {
+          "term": "top",
+          "count": 18,
+          "weightedScore": 23.72
+        },
+        {
+          "term": "master",
+          "count": 16,
+          "weightedScore": 20.468
+        },
+        {
+          "term": "kda",
+          "count": 6,
+          "weightedScore": 8.0
+        },
+        {
+          "term": "perfect",
+          "count": 4,
+          "weightedScore": 6.208
+        },
+        {
+          "term": "damage",
+          "count": 4,
+          "weightedScore": 5.165
+        },
+        {
+          "term": "darius",
+          "count": 5,
+          "weightedScore": 5.008
+        },
+        {
+          "term": "garen",
+          "count": 3,
+          "weightedScore": 4.522
+        },
+        {
+          "term": "euw",
+          "count": 5,
+          "weightedScore": 4.417
+        },
+        {
+          "term": "diamond",
+          "count": 3,
+          "weightedScore": 3.513
+        }
+      ],
+      "originNote": "Canal em inglês encontrado por busca pública; país não confirmado sem API."
+    },
+    {
+      "channel": {
+        "id": "UC9f0jAsEGul97seeLcJ98lw",
+        "title": "Locked On Angels",
+        "description": "Welcome to Locked On Angels, part of the Locked On Podcast Network. Your team, every day. Hosted by the Super Halo Bros., Mike and Jon Frisch!",
+        "customUrl": "",
+        "country": null,
+        "publishedAt": "",
+        "thumbnail": "https://yt3.googleusercontent.com/9AjaMbP0kHwdFXR8iPGBAriuSADWveMp6opkFV6aFyl1VMaJMG8wKmp-aB26xJOHrmW2PCLs7g=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+        "subscriberCount": 11200,
+        "viewCount": 40100,
+        "videoCount": 20,
+        "uploadsPlaylistId": "",
+        "url": "https://www.youtube.com/channel/UC9f0jAsEGul97seeLcJ98lw"
+      },
+      "verifiedUnitedStates": false,
+      "countryStatus": "estimated_english",
+      "relevanceScore": 42,
+      "topVideos": [
+        {
+          "id": "EsAxy9xu18Q",
+          "title": "FIRED: Angels DITCH Perry Minasian, John Mozeliak HIRED in Franchise-Altering Move, What's Next?",
+          "description": "",
+          "publishedAt": "",
+          "thumbnail": "https://i.ytimg.com/vi/EsAxy9xu18Q/hqdefault.jpg?sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLDABjX8kz9AaHctMp9Eycx34rznuw",
+          "url": "https://www.youtube.com/watch?v=EsAxy9xu18Q",
+          "tags": [],
+          "durationSeconds": 2029,
+          "durationLabel": "33:49",
+          "views": 3800,
+          "likes": 0,
+          "comments": 0,
+          "viewsPerDay": 3800.0,
+          "engagementRate": 0.0,
+          "outlierScore": 2.0,
+          "isShort": false,
+          "channel": "",
+          "channelId": "",
+          "channelUrl": ""
+        },
+        {
+          "id": "8aLnfIboKKA",
+          "title": "REAL CHANGE? The Los Angeles Angels Draft COULD Be the FIRST Steps Toward Promised Change",
+          "description": "",
+          "publishedAt": "",
+          "thumbnail": "https://i.ytimg.com/vi/8aLnfIboKKA/hqdefault.jpg?sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLAlmd2_bfLxDjiG3Sw6RJl0fv45aQ",
+          "url": "https://www.youtube.com/watch?v=8aLnfIboKKA",
+          "tags": [],
+          "durationSeconds": 2291,
+          "durationLabel": "38:11",
+          "views": 3000,
+          "likes": 0,
+          "comments": 0,
+          "viewsPerDay": 3000.0,
+          "engagementRate": 0.0,
+          "outlierScore": 1.579,
+          "isShort": false,
+          "channel": "",
+          "channelId": "",
+          "channelUrl": ""
+        },
+        {
+          "id": "8FJ4M9auNcc",
+          "title": "BOOSTED: Angels Farm System Rankings RISE as Calls to CLEAN HOUSE at Major League Level Get LOUDER",
+          "description": "",
+          "publishedAt": "",
+          "thumbnail": "https://i.ytimg.com/vi/8FJ4M9auNcc/hqdefault.jpg?sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLAYCsPuidEXYVP7hw9v8oG9i4F47w",
+          "url": "https://www.youtube.com/watch?v=8FJ4M9auNcc",
+          "tags": [],
+          "durationSeconds": 2246,
+          "durationLabel": "37:26",
+          "views": 2800,
+          "likes": 0,
+          "comments": 0,
+          "viewsPerDay": 2800.0,
+          "engagementRate": 0.0,
+          "outlierScore": 1.474,
+          "isShort": false,
+          "channel": "",
+          "channelId": "",
+          "channelUrl": ""
+        },
+        {
+          "id": "SHlGjJG2rrc",
+          "title": "THE ARTE FACTOR: John Mozeliak VOWS to REDEFINE Angels Franchise DESPITE Arte Moreno's Ownership",
+          "description": "",
+          "publishedAt": "",
+          "thumbnail": "https://i.ytimg.com/vi/SHlGjJG2rrc/hqdefault.jpg?sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLADEMJWpnDC-jV0Xz5PvSRq4u1ICw",
+          "url": "https://www.youtube.com/watch?v=SHlGjJG2rrc",
+          "tags": [],
+          "durationSeconds": 2205,
+          "durationLabel": "36:45",
+          "views": 2700,
+          "likes": 0,
+          "comments": 0,
+          "viewsPerDay": 2700.0,
+          "engagementRate": 0.0,
+          "outlierScore": 1.421,
+          "isShort": false,
+          "channel": "",
+          "channelId": "",
+          "channelUrl": ""
+        },
+        {
+          "id": "7vGqJpfkmz4",
+          "title": "IN DENIAL: Angels REFUSE to TRADE Reid Detmers, Jose Soriano, or Jo Adell with SHORTSIGHTED Strategy",
+          "description": "",
+          "publishedAt": "",
+          "thumbnail": "https://i.ytimg.com/vi/7vGqJpfkmz4/hqdefault.jpg?sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLDgqK6nkgj30xTDshYgWIitXET86w",
+          "url": "https://www.youtube.com/watch?v=7vGqJpfkmz4",
+          "tags": [],
+          "durationSeconds": 2312,
+          "durationLabel": "38:32",
+          "views": 2600,
+          "likes": 0,
+          "comments": 0,
+          "viewsPerDay": 2600.0,
+          "engagementRate": 0.0,
+          "outlierScore": 1.368,
+          "isShort": false,
+          "channel": "",
+          "channelId": "",
+          "channelUrl": ""
+        },
+        {
+          "id": "rk99UaZNbOE",
+          "title": "BEST PLAYER AVAILABLE: Angels' MLB Draft Strategy Could TRANSFORM Under John Mozeliak’s Directive",
+          "description": "",
+          "publishedAt": "",
+          "thumbnail": "https://i.ytimg.com/vi/rk99UaZNbOE/hqdefault.jpg?sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLBPRC-Uzfi29LxDHCsz7YbMCnChWA",
+          "url": "https://www.youtube.com/watch?v=rk99UaZNbOE",
+          "tags": [],
+          "durationSeconds": 2139,
+          "durationLabel": "35:39",
+          "views": 2100,
+          "likes": 0,
+          "comments": 0,
+          "viewsPerDay": 2100.0,
+          "engagementRate": 0.0,
+          "outlierScore": 1.105,
+          "isShort": false,
+          "channel": "",
+          "channelId": "",
+          "channelUrl": ""
+        }
+      ],
+      "keywords": [
+        {
+          "term": "angels",
+          "count": 18,
+          "weightedScore": 19.475
+        },
+        {
+          "term": "angeles",
+          "count": 6,
+          "weightedScore": 5.948
+        },
+        {
+          "term": "los",
+          "count": 6,
+          "weightedScore": 5.948
+        },
+        {
+          "term": "john",
+          "count": 3,
+          "weightedScore": 4.526
+        },
+        {
+          "term": "mozeliak",
+          "count": 3,
+          "weightedScore": 4.526
+        },
+        {
+          "term": "soriano",
+          "count": 4,
+          "weightedScore": 4.368
+        },
+        {
+          "term": "could",
+          "count": 3,
+          "weightedScore": 3.789
+        },
+        {
+          "term": "but",
+          "count": 4,
+          "weightedScore": 3.631
+        },
+        {
+          "term": "mike",
+          "count": 4,
+          "weightedScore": 3.368
+        },
+        {
+          "term": "trout",
+          "count": 4,
+          "weightedScore": 3.368
+        }
+      ],
+      "originNote": "Canal em inglês encontrado por busca pública; país não confirmado sem API."
+    },
+    {
+      "channel": {
+        "id": "UC6ybHdvpiY--95uCaxHZv9A",
+        "title": "Mundo Expert",
+        "description": "🌐 Welcome to Mundo Expert — Global Freedom, Smart Investments, Real Opportunities.\n\nWe are an international advisory firm based in Panama City, helping entrepreneurs, investors, and families create financial freedom and protect it for future generations.\n\nOur Expertise:\n• Residency & Citizenship Programs( CBI)\n• Real Estate & Investment Strategies\n• Trusts, Corporate Structures & Asset Protection\n\n☀️Our Mission:\nTo create the perfect structure for personal and financial freedom — and protect it for the next generation.\n\n🌎Our Vision:\nTo make the wealthy become free, and the free become wealthy.\n\n🍀Join us to discover:\n• How to live, invest, and grow globally\n• How to build your “Plan B” through Panama\n• How to balance wealth, freedom, and happiness\n\n🌍At Mundo Expert, success means more than wealth — it means freedom.\n\n🌐 mundo.expert￼ \n📧 ceo@mundo.expert \n📞 +507 6209-5035\n\n💬 Mundo Expert — Where Freedom Becomes Wealth.\n",
+        "customUrl": "",
+        "country": null,
+        "publishedAt": "",
+        "thumbnail": "https://yt3.googleusercontent.com/EKXZYXXb8v5JQP6YihM6zDNYpc3YozK_XqvSF-4aNr25E_R_zSS2lFe8zjoV7BdGjrasEH6o=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+        "subscriberCount": 916,
+        "viewCount": 7853,
+        "videoCount": 10,
+        "uploadsPlaylistId": "",
+        "url": "https://www.youtube.com/channel/UC6ybHdvpiY--95uCaxHZv9A"
+      },
+      "verifiedUnitedStates": false,
+      "countryStatus": "estimated_english",
+      "relevanceScore": 35,
+      "topVideos": [
+        {
+          "id": "6oavfJmU-Sw",
+          "title": "What You Need to Know About Panama Foundations",
+          "description": "",
+          "publishedAt": "",
+          "thumbnail": "https://i.ytimg.com/vi/6oavfJmU-Sw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBZhK6T2ZvcbKAmXBZM6nhMj7vCPw",
+          "url": "https://www.youtube.com/watch?v=6oavfJmU-Sw",
+          "tags": [],
+          "durationSeconds": 145,
+          "durationLabel": "2:25",
+          "views": 3800,
+          "likes": 0,
+          "comments": 0,
+          "viewsPerDay": 3800.0,
+          "engagementRate": 0.0,
+          "outlierScore": 25.676,
+          "isShort": true,
+          "channel": "",
+          "channelId": "",
+          "channelUrl": ""
+        },
+        {
+          "id": "xPf0JSj6YjY",
+          "title": "St. Kitts and Nevis as a Place of Residence and Property Purchase",
+          "description": "",
+          "publishedAt": "",
+          "thumbnail": "https://i.ytimg.com/vi/xPf0JSj6YjY/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAuADigIMCAAQARhMIGUoJTAP&rs=AOn4CLD-ZemVQJqm5Ox9MNHfqE1lY_RfTg",
+          "url": "https://www.youtube.com/watch?v=xPf0JSj6YjY",
+          "tags": [],
+          "durationSeconds": 179,
+          "durationLabel": "2:59",
+          "views": 1700,
+          "likes": 0,
+          "comments": 0,
+          "viewsPerDay": 1700.0,
+          "engagementRate": 0.0,
+          "outlierScore": 11.486,
+          "isShort": true,
+          "channel": "",
+          "channelId": "",
+          "channelUrl": ""
+        },
+        {
+          "id": "Hn3y_7qtSzQ",
+          "title": "Banking Services in St. Kitts and Nevis",
+          "description": "",
+          "publishedAt": "",
+          "thumbnail": "https://i.ytimg.com/vi/Hn3y_7qtSzQ/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAuADigIMCAAQARhlIGEoWjAP&rs=AOn4CLAb8v55ubF-wpfNzgL04-HN3z0zXw",
+          "url": "https://www.youtube.com/watch?v=Hn3y_7qtSzQ",
+          "tags": [],
+          "durationSeconds": 213,
+          "durationLabel": "3:33",
+          "views": 1000,
+          "likes": 0,
+          "comments": 0,
+          "viewsPerDay": 1000.0,
+          "engagementRate": 0.0,
+          "outlierScore": 5.682,
+          "isShort": false,
+          "channel": "",
+          "channelId": "",
+          "channelUrl": ""
+        },
+        {
+          "id": "PbFTJ09_Mow",
+          "title": "Investing in Real Estate in Panama",
+          "description": "",
+          "publishedAt": "",
+          "thumbnail": "https://i.ytimg.com/vi/PbFTJ09_Mow/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBuqy7bRC1vq7SNoajd4_GSrEIpQw",
+          "url": "https://www.youtube.com/watch?v=PbFTJ09_Mow",
+          "tags": [],
+          "durationSeconds": 235,
+          "durationLabel": "3:55",
+          "views": 737,
+          "likes": 0,
+          "comments": 0,
+          "viewsPerDay": 737.0,
+          "engagementRate": 0.0,
+          "outlierScore": 4.188,
+          "isShort": false,
+          "channel": "",
+          "channelId": "",
+          "channelUrl": ""
+        },
+        {
+          "id": "ZsyyOADmcaI",
+          "title": "Discover the advantages of Panama Golden Visa with Mundo Group 🌟",
+          "description": "",
+          "publishedAt": "",
+          "thumbnail": "https://i.ytimg.com/vi/ZsyyOADmcaI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAzxYm8ohQC8mfEnuFQx2qem7iv5Q",
+          "url": "https://www.youtube.com/watch?v=ZsyyOADmcaI",
+          "tags": [],
+          "durationSeconds": 421,
+          "durationLabel": "7:01",
+          "views": 176,
+          "likes": 0,
+          "comments": 0,
+          "viewsPerDay": 176.0,
+          "engagementRate": 0.0,
+          "outlierScore": 1.0,
+          "isShort": false,
+          "channel": "",
+          "channelId": "",
+          "channelUrl": ""
+        },
+        {
+          "id": "XJlD52qJYiY",
+          "title": "Establishing a Family Office in Panama",
+          "description": "",
+          "publishedAt": "",
+          "thumbnail": "https://i.ytimg.com/vi/XJlD52qJYiY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDSNihXW35OhLiJfoDzh9jBhxvQLg",
+          "url": "https://www.youtube.com/watch?v=XJlD52qJYiY",
+          "tags": [],
+          "durationSeconds": 143,
+          "durationLabel": "2:23",
+          "views": 148,
+          "likes": 0,
+          "comments": 0,
+          "viewsPerDay": 148.0,
+          "engagementRate": 0.0,
+          "outlierScore": 1.0,
+          "isShort": true,
+          "channel": "",
+          "channelId": "",
+          "channelUrl": ""
+        }
+      ],
+      "keywords": [
+        {
+          "term": "panama",
+          "count": 6,
+          "weightedScore": 15.188
+        },
+        {
+          "term": "kitts",
+          "count": 2,
+          "weightedScore": 13.682
+        },
+        {
+          "term": "nevis",
+          "count": 2,
+          "weightedScore": 13.682
+        },
+        {
+          "term": "about",
+          "count": 1,
+          "weightedScore": 8
+        },
+        {
+          "term": "foundations",
+          "count": 1,
+          "weightedScore": 8
+        },
+        {
+          "term": "know",
+          "count": 1,
+          "weightedScore": 8
+        },
+        {
+          "term": "need",
+          "count": 1,
+          "weightedScore": 8
+        },
+        {
+          "term": "place",
+          "count": 1,
+          "weightedScore": 8
+        },
+        {
+          "term": "property",
+          "count": 1,
+          "weightedScore": 8
+        },
+        {
+          "term": "purchase",
+          "count": 1,
+          "weightedScore": 8
+        }
+      ],
+      "originNote": "Canal em inglês encontrado por busca pública; país não confirmado sem API."
+    }
+  ],
+  "insights": [
+    {
+      "title": "Faixa de duração com maior sinal",
+      "finding": "5–10 min apresenta o melhor desempenho relativo entre os conteúdos de destaque.",
+      "action": "Teste uma série de quatro vídeos nessa faixa antes de mudar toda a estratégia de duração."
+    },
+    {
+      "title": "Estrutura de títulos",
+      "finding": "0 dos 4 destaques usam pergunta ou linguagem explicativa; 0 começam com número.",
+      "action": "Use promessa específica, mecanismo claro e consequência prática. Evite títulos genéricos."
+    },
+    {
+      "title": "Temas que concentram resultado",
+      "finding": "Os termos com maior peso são: cartas, mundo, angeles, conta, los.",
+      "action": "Transforme cada tema vencedor em introdução, erros, estudo de caso, comparação e passo a passo."
+    },
+    {
+      "title": "Cadência recente",
+      "finding": "Não há datas suficientes para calcular a cadência.",
+      "action": "Mantenha uma frequência sustentável e concentre os testes em tema, título e thumbnail."
+    },
+    {
+      "title": "Papel dos Shorts",
+      "finding": "50% dos vídeos analisados foram classificados como Shorts.",
+      "action": "Compare Shorts e vídeos longos separadamente, pois os padrões de visualização são diferentes."
+    },
+    {
+      "title": "Meta de vídeo fora da curva",
+      "finding": "O canal Cartas do Mundo possui conteúdos que superam a própria mediana.",
+      "action": "Crie continuações dos vídeos acima de 2x da mediana, mantendo a promessa e alterando o ângulo."
+    }
+  ],
+  "ideas": [
+    {
+      "title": "Como dominar Cartas sem cometer os erros mais comuns",
+      "angle": "Tutorial prático com quebra de objeções.",
+      "thumbnailText": "Cartas: SEM ERROS",
+      "basedOn": "Tema recorrente entre os vídeos com melhor desempenho.",
+      "potential": "alto"
+    },
+    {
+      "title": "7 erros de Cartas que estão prejudicando seus resultados",
+      "angle": "Lista com dor, diagnóstico e correção.",
+      "thumbnailText": "VOCÊ FAZ ISSO?",
+      "basedOn": "Transformação do tema vencedor em formato de lista.",
+      "potential": "alto"
+    },
+    {
+      "title": "Como dominar Mundo sem cometer os erros mais comuns",
+      "angle": "Tutorial prático com quebra de objeções.",
+      "thumbnailText": "Mundo: SEM ERROS",
+      "basedOn": "Tema recorrente entre os vídeos com melhor desempenho.",
+      "potential": "alto"
+    },
+    {
+      "title": "7 erros de Mundo que estão prejudicando seus resultados",
+      "angle": "Lista com dor, diagnóstico e correção.",
+      "thumbnailText": "VOCÊ FAZ ISSO?",
+      "basedOn": "Transformação do tema vencedor em formato de lista.",
+      "potential": "alto"
+    },
+    {
+      "title": "Como dominar Angeles sem cometer os erros mais comuns",
+      "angle": "Tutorial prático com quebra de objeções.",
+      "thumbnailText": "Angeles: SEM ERROS",
+      "basedOn": "Tema recorrente entre os vídeos com melhor desempenho.",
+      "potential": "alto"
+    },
+    {
+      "title": "7 erros de Angeles que estão prejudicando seus resultados",
+      "angle": "Lista com dor, diagnóstico e correção.",
+      "thumbnailText": "VOCÊ FAZ ISSO?",
+      "basedOn": "Transformação do tema vencedor em formato de lista.",
+      "potential": "alto"
+    },
+    {
+      "title": "Como dominar Conta sem cometer os erros mais comuns",
+      "angle": "Tutorial prático com quebra de objeções.",
+      "thumbnailText": "Conta: SEM ERROS",
+      "basedOn": "Tema recorrente entre os vídeos com melhor desempenho.",
+      "potential": "alto"
+    },
+    {
+      "title": "7 erros de Conta que estão prejudicando seus resultados",
+      "angle": "Lista com dor, diagnóstico e correção.",
+      "thumbnailText": "VOCÊ FAZ ISSO?",
+      "basedOn": "Transformação do tema vencedor em formato de lista.",
+      "potential": "alto"
+    },
+    {
+      "title": "Como dominar Los sem cometer os erros mais comuns",
+      "angle": "Tutorial prático com quebra de objeções.",
+      "thumbnailText": "Los: SEM ERROS",
+      "basedOn": "Tema recorrente entre os vídeos com melhor desempenho.",
+      "potential": "alto"
+    },
+    {
+      "title": "7 erros de Los que estão prejudicando seus resultados",
+      "angle": "Lista com dor, diagnóstico e correção.",
+      "thumbnailText": "VOCÊ FAZ ISSO?",
+      "basedOn": "Transformação do tema vencedor em formato de lista.",
+      "potential": "alto"
+    },
+    {
+      "title": "Como dominar Ninguem sem cometer os erros mais comuns",
+      "angle": "Tutorial prático com quebra de objeções.",
+      "thumbnailText": "Ninguem: SEM ERROS",
+      "basedOn": "Tema recorrente entre os vídeos com melhor desempenho.",
+      "potential": "alto"
+    },
+    {
+      "title": "7 erros de Ninguem que estão prejudicando seus resultados",
+      "angle": "Lista com dor, diagnóstico e correção.",
+      "thumbnailText": "VOCÊ FAZ ISSO?",
+      "basedOn": "Transformação do tema vencedor em formato de lista.",
+      "potential": "alto"
+    },
+    {
+      "title": "Como dominar Sobre sem cometer os erros mais comuns",
+      "angle": "Tutorial prático com quebra de objeções.",
+      "thumbnailText": "Sobre: SEM ERROS",
+      "basedOn": "Tema recorrente entre os vídeos com melhor desempenho.",
+      "potential": "alto"
+    },
+    {
+      "title": "7 erros de Sobre que estão prejudicando seus resultados",
+      "angle": "Lista com dor, diagnóstico e correção.",
+      "thumbnailText": "VOCÊ FAZ ISSO?",
+      "basedOn": "Transformação do tema vencedor em formato de lista.",
+      "potential": "alto"
+    },
+    {
+      "title": "Como dominar Casa sem cometer os erros mais comuns",
+      "angle": "Tutorial prático com quebra de objeções.",
+      "thumbnailText": "Casa: SEM ERROS",
+      "basedOn": "Tema recorrente entre os vídeos com melhor desempenho.",
+      "potential": "alto"
+    },
+    {
+      "title": "7 erros de Casa que estão prejudicando seus resultados",
+      "angle": "Lista com dor, diagnóstico e correção.",
+      "thumbnailText": "VOCÊ FAZ ISSO?",
+      "basedOn": "Transformação do tema vencedor em formato de lista.",
+      "potential": "alto"
+    },
+    {
+      "title": "Como dominar Sair sem cometer os erros mais comuns",
+      "angle": "Tutorial prático com quebra de objeções.",
+      "thumbnailText": "Sair: SEM ERROS",
+      "basedOn": "Tema recorrente entre os vídeos com melhor desempenho.",
+      "potential": "alto"
+    },
+    {
+      "title": "7 erros de Sair que estão prejudicando seus resultados",
+      "angle": "Lista com dor, diagnóstico e correção.",
+      "thumbnailText": "VOCÊ FAZ ISSO?",
+      "basedOn": "Transformação do tema vencedor em formato de lista.",
+      "potential": "alto"
+    },
+    {
+      "title": "Como dominar Viaje sem cometer os erros mais comuns",
+      "angle": "Tutorial prático com quebra de objeções.",
+      "thumbnailText": "Viaje: SEM ERROS",
+      "basedOn": "Tema recorrente entre os vídeos com melhor desempenho.",
+      "potential": "alto"
+    },
+    {
+      "title": "7 erros de Viaje que estão prejudicando seus resultados",
+      "angle": "Lista com dor, diagnóstico e correção.",
+      "thumbnailText": "VOCÊ FAZ ISSO?",
+      "basedOn": "Transformação do tema vencedor em formato de lista.",
+      "potential": "alto"
+    },
+    {
+      "title": "O que ninguém te conta sobre Los Angeles: o que mudou e o que eu faria hoje",
+      "angle": "Atualização de um conteúdo que já provou demanda.",
+      "thumbnailText": "EU FARIA ASSIM",
+      "basedOn": "Continuação de “O que ninguém te conta sobre Los Angeles” (2.0x da mediana).",
+      "potential": "médio"
+    },
+    {
+      "title": "Cartas do Mundo viaje sem sair de casa: o que mudou e o que eu faria hoje",
+      "angle": "Atualização de um conteúdo que já provou demanda.",
+      "thumbnailText": "EU FARIA ASSIM",
+      "basedOn": "Continuação de “Cartas do Mundo: viaje sem sair de casa” (1.7x da mediana).",
+      "potential": "médio"
+    },
+    {
+      "title": "Confira as aventuras do Viajante Rosa em Lapônia: o que mudou e o que eu faria hoje",
+      "angle": "Atualização de um conteúdo que já provou demanda.",
+      "thumbnailText": "EU FARIA ASSIM",
+      "basedOn": "Continuação de “Confira as aventuras do Viajante Rosa em Lapônia” (0.3x da mediana).",
+      "potential": "médio"
+    },
+    {
+      "title": "PODCAST Um ano de Cartas do Mundo: o que mudou e o que eu faria hoje",
+      "angle": "Atualização de um conteúdo que já provou demanda.",
+      "thumbnailText": "EU FARIA ASSIM",
+      "basedOn": "Continuação de “PODCAST - Um ano de Cartas do Mundo” (0.0x da mediana).",
+      "potential": "médio"
+    },
+    {
+      "title": "A versão brasileira de: DR. MUNDO vs GAREN (TOP) 84K damage EUNE Master 26.13",
+      "angle": "Adaptar a tese estrangeira ao contexto, exemplos e linguagem do público brasileiro.",
+      "thumbnailText": "ISSO CHEGOU AO BRASIL",
+      "basedOn": "Referência encontrada em inglês no canal domisumReplay: Dr. Mundo.",
+      "potential": "alto"
+    },
+    {
+      "title": "A versão brasileira de: DR. MUNDO vs MORDEKAISER (TOP) KR Master 26.13",
+      "angle": "Adaptar a tese estrangeira ao contexto, exemplos e linguagem do público brasileiro.",
+      "thumbnailText": "ISSO CHEGOU AO BRASIL",
+      "basedOn": "Referência encontrada em inglês no canal domisumReplay: Dr. Mundo.",
+      "potential": "alto"
+    },
+    {
+      "title": "A versão brasileira de: DR. MUNDO vs TEEMO (TOP) KR Master 26.12",
+      "angle": "Adaptar a tese estrangeira ao contexto, exemplos e linguagem do público brasileiro.",
+      "thumbnailText": "ISSO CHEGOU AO BRASIL",
+      "basedOn": "Referência encontrada em inglês no canal domisumReplay: Dr. Mundo.",
+      "potential": "alto"
+    },
+    {
+      "title": "A versão brasileira de: FIRED Angels DITCH Perry Minasian, John Mozeliak HIRED in Franchise Alterin",
+      "angle": "Adaptar a tese estrangeira ao contexto, exemplos e linguagem do público brasileiro.",
+      "thumbnailText": "ISSO CHEGOU AO BRASIL",
+      "basedOn": "Referência encontrada em inglês no canal Locked On Angels.",
+      "potential": "alto"
+    },
+    {
+      "title": "A versão brasileira de: REAL CHANGE? The Los Angeles Angels Draft COULD Be the FIRST Steps Toward P",
+      "angle": "Adaptar a tese estrangeira ao contexto, exemplos e linguagem do público brasileiro.",
+      "thumbnailText": "ISSO CHEGOU AO BRASIL",
+      "basedOn": "Referência encontrada em inglês no canal Locked On Angels.",
+      "potential": "alto"
+    },
+    {
+      "title": "A versão brasileira de: BOOSTED Angels Farm System Rankings RISE as Calls to CLEAN HOUSE at Major L",
+      "angle": "Adaptar a tese estrangeira ao contexto, exemplos e linguagem do público brasileiro.",
+      "thumbnailText": "ISSO CHEGOU AO BRASIL",
+      "basedOn": "Referência encontrada em inglês no canal Locked On Angels.",
+      "potential": "médio"
+    }
+  ],
+  "searchQueries": [
+    "cartas expert channel",
+    "mundo expert channel",
+    "angeles expert channel"
+  ],
+  "thumbnailInsights": {
+    "samplesAnalyzed": 4,
+    "averageBrightness": 105.0,
+    "averageContrast": 55.6,
+    "averageSaturation": 28.9,
+    "averageEdgeDensity": 31.8,
+    "commonDominantColors": [
+      "#c3bdb3",
+      "#87715d",
+      "#4e463d",
+      "#25260d",
+      "#4c3e28",
+      "#7f6a55"
+    ],
+    "notes": [
+      "As thumbnails de destaque tendem a ser mais escuras.",
+      "O contraste visual é forte.",
+      "A paleta usa saturação moderada.",
+      "A composição tende a ser visualmente simples."
+    ],
+    "samples": [
+      {
+        "videoId": "m6ptRO5mk9U",
+        "title": "O que ninguém te conta sobre Los Angeles",
+        "brightness": 129.6,
+        "contrast": 65.0,
+        "saturation": 24.9,
+        "edgeDensity": 61.1,
+        "dominantColors": [
+          "#c3bdb3",
+          "#87715d",
+          "#4e463d"
+        ]
+      },
+      {
+        "videoId": "5SKrnSnumNk",
+        "title": "Cartas do Mundo: viaje sem sair de casa",
+        "brightness": 89.7,
+        "contrast": 50.3,
+        "saturation": 42.6,
+        "edgeDensity": 27.3,
+        "dominantColors": [
+          "#25260d",
+          "#4c3e28",
+          "#7f6a55"
+        ]
+      },
+      {
+        "videoId": "NpSpxdWYg8Y",
+        "title": "Confira as aventuras do Viajante Rosa em Lapônia",
+        "brightness": 136.4,
+        "contrast": 37.2,
+        "saturation": 16.1,
+        "edgeDensity": 19.2,
+        "dominantColors": [
+          "#91968a",
+          "#7b8379",
+          "#51615d"
+        ]
+      },
+      {
+        "videoId": "KZK-4-gU-iY",
+        "title": "PODCAST - Um ano de Cartas do Mundo",
+        "brightness": 64.3,
+        "contrast": 69.8,
+        "saturation": 31.9,
+        "edgeDensity": 19.6,
+        "dominantColors": [
+          "#000000",
+          "#bd935f",
+          "#825834"
+        ]
+      }
+    ]
+  },
+  "limitations": [
+    "Esta edição não usa a YouTube Data API nem exige chave do Google.",
+    "A coleta depende da estrutura pública das páginas do YouTube e pode exigir atualização do yt-dlp quando o site mudar.",
+    "O país dos canais de referência não pode ser confirmado; o sistema prioriza conteúdo em inglês e trata a origem como estimativa.",
+    "Curtidas, comentários, tags e descrições podem estar ausentes quando o YouTube não os expõe ao coletor.",
+    "CTR, retenção, impressões, receita e fontes de tráfego continuam indisponíveis sem acesso autorizado ao YouTube Studio.",
+    "A análise visual das thumbnails usa brilho, contraste, saturação e composição básica; não interpreta texto ou rostos com precisão de IA."
+  ]
+}

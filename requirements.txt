@@ -1,0 +1,2 @@
+yt-dlp
+Pillow>=10.0

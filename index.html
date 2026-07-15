@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Análise estratégica de canais do YouTube sem YouTube Data API." />
+  <title>YouTube Strategy Lab — Sem API</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#">YT Strategy <span>Lab</span></a>
+    <span class="status-pill">SEM API · GITHUB PAGES</span>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">ANÁLISE E BENCHMARK DE CONTEÚDO</span>
+        <h1>Descubra os vídeos que puxam o canal para cima.</h1>
+        <p>Este painel não usa a YouTube Data API. Ele abre relatórios gerados pelo coletor local gratuito ou pelo GitHub Actions.</p>
+        <div class="hero-actions">
+          <label class="button primary file-button">
+            Abrir relatório JSON
+            <input id="reportFile" type="file" accept="application/json,.json" hidden />
+          </label>
+          <button class="button secondary" id="loadLatest">Carregar relatório do GitHub</button>
+          <button class="button ghost" id="loadSample">Ver demonstração</button>
+        </div>
+        <p class="microcopy">Para analisar outro canal, rode o coletor e abra o arquivo gerado aqui.</p>
+      </div>
+      <div class="hero-card">
+        <div class="terminal-head"><i></i><i></i><i></i></div>
+        <pre><code>python -m collector.collect \
+  "https://youtube.com/@canal" \
+  --max-videos 200 \
+  --output reports/latest.json</code></pre>
+        <div class="terminal-result">✓ sem chave · sem cartão · relatório local</div>
+      </div>
+    </section>
+
+    <section class="empty-state" id="emptyState">
+      <div class="empty-icon">↗</div>
+      <h2>Abra um relatório para começar</h2>
+      <p>O painel mostrará métricas, vídeos fora da curva, padrões editoriais, referências em inglês, thumbnails e ideias.</p>
+    </section>
+
+    <section class="dashboard hidden" id="dashboard">
+      <div id="sourceNotice" class="source-notice"></div>
+
+      <header class="channel-header panel">
+        <img id="channelThumb" class="channel-thumb" alt="Imagem do canal" />
+        <div class="channel-copy">
+          <span class="eyebrow" id="nicheLabel"></span>
+          <h2 id="channelTitle"></h2>
+          <p id="channelDescription"></p>
+          <div class="channel-links">
+            <a id="channelUrl" target="_blank" rel="noreferrer">Abrir canal ↗</a>
+            <span id="generatedAt"></span>
+          </div>
+        </div>
+        <button class="button secondary compact" id="downloadReport">Baixar JSON</button>
+      </header>
+
+      <section class="metrics-grid" id="metricsGrid"></section>
+
+      <section class="panel">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">SINAIS MAIS FORTES</span>
+            <h2>Vídeos fora da curva</h2>
+          </div>
+          <p>O índice compara cada vídeo com a mediana do próprio formato no canal.</p>
+        </div>
+        <div class="video-grid" id="topVideos"></div>
+      </section>
+
+      <section class="split-grid">
+        <article class="panel">
+          <span class="eyebrow">MAPA EDITORIAL</span>
+          <h2>Temas com maior peso</h2>
+          <div class="keyword-cloud" id="keywordCloud"></div>
+        </article>
+        <article class="panel">
+          <span class="eyebrow">BUSCAS INTERNACIONAIS</span>
+          <h2>Termos usados na descoberta</h2>
+          <ol class="query-list" id="searchQueries"></ol>
+          <p class="muted">A origem geográfica dos canais não é confirmada nesta versão sem API.</p>
+        </article>
+      </section>
+
+      <section class="panel" id="thumbPanel">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">THUMBNAILS</span>
+            <h2>Padrões visuais dos destaques</h2>
+          </div>
+          <p id="thumbnailCount"></p>
+        </div>
+        <div class="thumb-analysis">
+          <div class="visual-metrics" id="thumbnailMetrics"></div>
+          <div>
+            <div class="color-row" id="dominantColors"></div>
+            <ul class="insight-list" id="thumbnailNotes"></ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">BENCHMARK INTERNACIONAL</span>
+            <h2>Referências em inglês</h2>
+          </div>
+          <p>Encontradas por termos do nicho; país tratado como estimativa.</p>
+        </div>
+        <div class="competitor-list" id="competitors"></div>
+      </section>
+
+      <section class="panel">
+        <span class="eyebrow">PLANO DE AÇÃO</span>
+        <h2>Insights estratégicos</h2>
+        <div class="insight-grid" id="insights"></div>
+      </section>
+
+      <section class="panel">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">BANCO DE PAUTAS</span>
+            <h2>Ideias para os próximos vídeos</h2>
+          </div>
+          <p>Geradas a partir dos temas e vídeos com maior sinal.</p>
+        </div>
+        <div class="idea-list" id="ideas"></div>
+      </section>
+
+      <section class="panel warning-panel">
+        <span class="eyebrow">LIMITAÇÕES HONESTAS</span>
+        <h2>O que esta versão não pode garantir</h2>
+        <ul class="limitations" id="limitations"></ul>
+      </section>
+    </section>
+  </main>
+
+  <div class="toast hidden" id="toast"></div>
+  <script src="assets/app.js" defer></script>
+</body>
+</html>

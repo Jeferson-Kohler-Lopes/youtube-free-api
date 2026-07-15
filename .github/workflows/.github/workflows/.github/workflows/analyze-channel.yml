@@ -1,0 +1,168 @@
+name: Analisar canal sem API
+
+on:
+  workflow_dispatch:
+    inputs:
+      channel_url:
+        description: "URL, @handle ou nome do canal"
+        required: true
+        type: string
+
+      max_videos:
+        description: "Quantidade máxima de vídeos do canal principal"
+        required: true
+        default: "200"
+        type: choice
+        options:
+          - "50"
+          - "100"
+          - "200"
+          - "300"
+          - "500"
+
+      max_competitors:
+        description: "Quantidade de canais de referência em inglês"
+        required: true
+        default: "3"
+        type: choice
+        options:
+          - "0"
+          - "1"
+          - "2"
+          - "3"
+          - "4"
+
+      deep_all:
+        description: "Buscar dados detalhados de cada vídeo (mais demorado)"
+        required: true
+        default: false
+        type: boolean
+
+      skip_thumbnails:
+        description: "Pular a análise visual das thumbnails"
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: analisar-canal
+  cancel-in-progress: false
+
+jobs:
+  analyze:
+    name: Coletar e analisar canal
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    env:
+      CHANNEL_URL: ${{ inputs.channel_url }}
+      MAX_VIDEOS: ${{ inputs.max_videos }}
+      MAX_COMPETITORS: ${{ inputs.max_competitors }}
+      DEEP_ALL: ${{ inputs.deep_all }}
+      SKIP_THUMBNAILS: ${{ inputs.skip_thumbnails }}
+
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Localizar o projeto no repositório
+        shell: bash
+        run: |
+          COLLECTOR_FILE=$(find "$GITHUB_WORKSPACE" \
+            -type f \
+            -path "*/collector/collect.py" \
+            -not -path "*/.git/*" \
+            | head -n 1)
+
+          if [[ -z "$COLLECTOR_FILE" ]]; then
+            echo "::error::Não encontrei o arquivo collector/collect.py em nenhuma pasta do repositório."
+            echo "Arquivos encontrados até quatro níveis de profundidade:"
+            find "$GITHUB_WORKSPACE" -maxdepth 4 -type f -not -path "*/.git/*" | sort
+            exit 1
+          fi
+
+          PROJECT_ROOT=$(dirname "$(dirname "$COLLECTOR_FILE")")
+
+          echo "PROJECT_ROOT=$PROJECT_ROOT" >> "$GITHUB_ENV"
+          echo "Projeto encontrado em: $PROJECT_ROOT"
+          echo "Coletor encontrado em: $COLLECTOR_FILE"
+
+      - name: Instalar dependências
+        shell: bash
+        run: |
+          if [[ ! -f "$PROJECT_ROOT/requirements.txt" ]]; then
+            echo "::error::Não encontrei requirements.txt em $PROJECT_ROOT"
+            exit 1
+          fi
+
+          python -m pip install --upgrade pip
+          python -m pip install -r "$PROJECT_ROOT/requirements.txt"
+
+      - name: Executar testes, quando existirem
+        shell: bash
+        run: |
+          if find "$PROJECT_ROOT/tests" -type f -name 'test_*.py' -print -quit 2>/dev/null | grep -q .; then
+            cd "$PROJECT_ROOT"
+            python -m unittest discover -s tests -p 'test_*.py' -v
+          else
+            echo "Nenhum teste encontrado. Continuando a análise."
+          fi
+
+      - name: Coletar e analisar
+        shell: bash
+        run: |
+          mkdir -p "$GITHUB_WORKSPACE/reports"
+          cd "$PROJECT_ROOT"
+
+          args=(
+            "$CHANNEL_URL"
+            --max-videos "$MAX_VIDEOS"
+            --max-competitors "$MAX_COMPETITORS"
+            --output "$GITHUB_WORKSPACE/reports/latest.json"
+          )
+
+          if [[ "$DEEP_ALL" == "true" ]]; then
+            args+=(--deep-all)
+          fi
+
+          if [[ "$SKIP_THUMBNAILS" == "true" ]]; then
+            args+=(--skip-thumbnails)
+          fi
+
+          python -m collector.collect "${args[@]}"
+
+      - name: Conferir relatório gerado
+        shell: bash
+        run: |
+          test -s "$GITHUB_WORKSPACE/reports/latest.json"
+          python -m json.tool "$GITHUB_WORKSPACE/reports/latest.json" > /dev/null
+          echo "Relatório gerado e validado com sucesso."
+
+      - name: Salvar relatório no repositório
+        shell: bash
+        run: |
+          cd "$GITHUB_WORKSPACE"
+
+          git config user.name "youtube-strategy-bot"
+          git config user.email "actions@users.noreply.github.com"
+
+          git add reports/latest.json
+
+          if git diff --cached --quiet; then
+            echo "O relatório não mudou. Nenhum commit necessário."
+            exit 0
+          fi
+
+          git commit -m "Atualiza análise do canal"
+          git pull --rebase origin main
+          git push origin HEAD:main
